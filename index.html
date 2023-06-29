@@ -1,59 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=h1, initial-scale=1.0">
     <title>LEARNING</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
-        body {
-            text-align: center;
-            background-color: #F5F5F5;
-            color: DFD7BF;
-        }
-
-
-        h2{
-            margin: 16px 0 10px 0;
-        }
-
-        ul {
-            padding: 0;
-            margin: 0;
-        }
-
-        li {
-            list-style: none;
-            margin-bottom: 10px;
-        }
-
-        a{
-            text-decoration: none;
-        }
-
-        a:hover{
-            color: black;
-        }
-
     </style>
 </head>
 
 <body>
-    <h1>LEARNING WEB DEVELOPMENT <br> # MERN DEVELOPER</h1>
-    <hr>
-    <h2>HTML</h2>
-    <ul>
-        <li><a href="./Online Resume/index.html">Personal Site</a></li>
-    </ul>
-    <hr>
-    <h2>CSS</h2>
-    <ul>
-        <li><a href="./CSS Positioning/index.html">CSS Positioning</a></li>
-        <li><a href="./Flexbox Pricing Table Project/index.html">Flexbox Pricing Table Project</a></li>
-        <li><a href="./Display Grid/index.html">Display Grid</a></li>
-        <li><a href="./Mondrian Project/index.html">Mondrian Project</a></li>
-    </ul>
-    <hr>
+    <div class="d-flex justify-content-center">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">LEARNING WEB DEVELOPMENT # MERN DEVELOPER</span>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container px-0 py-0" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">HTML</h2>
+        <div class="row g-4 py-2 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">Personal Site</h3>
+                    <p>Made Personal CV by just using HTML</p>
+                    <a href="./Online Resume/index.html" class="btn btn-primary">
+                        Preview
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-0 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">CSS</h2>
+
+        <div class="row g-4 py-2 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">CSS Positioning</h3>
+                    <p>Learned: How to position an element using static, relative, absolute and fixed, with repect to
+                        top, bottom ,left and right. By building a Flag of Country.</p>
+                    <a href="./CSS Positioning/index.html" class="btn btn-primary">Flag(Random Country)</a>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">Flexbox</h3>
+                    <p>How Flexbox Works. By Building a Product Card. Learned: display properties, justify content,
+                        align items, align content, align self also made it reponsive.</p>
+                    <a href="./Flexbox Pricing Table Project/index.html" class="btn btn-primary">
+                        Product Card
+                    </a>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">Grid</h3>
+                    <p>How Grid Works. By Building a Chess Board. Learned: grid-template-rows, grid-template-columns,
+                        grid-rows-start, end, grid-templates </p>
+                    <a href="./Display Grid/index.html" class="btn btn-primary">
+                        Chess Board
+                    </a>
+                </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">Grid</h3>
+                    <p>How Grid Works. By Building a Mondrian Drawing. Learned: grid-template-rows,
+                        grid-template-columns, grid-rows-start, end, grid-templates..</p>
+                    <a href="./Mondrian Project/index.html" class="btn btn-primary">
+                        Mondrian Drawing
+                    </a>
+                </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">Bootstrap</h3>
+                    <p>Made an Project with the Help of Bootstrap a Move It Website. By Learning how to import the
+                        bootstrap, layout and its components.</p>
+                    <a href="./Bootstrap Components/index.html" class="btn btn-primary">
+                        Move It
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
